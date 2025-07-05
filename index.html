@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action = "/action.php">
+        <h3>Log in</h3>
+        <h4>
+        <input type = "text" placeholder = "Enter name">
+        <input type = "password" placeholder = "Password">
+        </h4>
+        <br>
+        <h5>Select Class</h5>
+    <label for = "101">
+        <input type = "radio" name = "class XI" id = "101">Class XI
+        <input type = "radio" name = "class XII" id = "101">Class XII
+    </label>
+    <h5>Select Subject</h5>
+    <label for = "math">
+        <input type = "checkbox" value = "math" name ="subject" id = "101"> math
+     
+    </label>
+    <br>
+        <label for = "phy">
+            <input type = "checkbox" value = "phy" name = "subject" id = "102">phy
+        </label>
+    <br>
+        <label for = "eng">
+            <input type = "checkbox" value = "eng" name = "subject" id = "103">eng
+        </label>
+        <br>
+        <br>
+        Select Your City
+        <select name = "city" id = "city">
+            <option value = "Delhi">Delhi</option>
+            <option value = "Chennai">Chennai</option>
+            <option value = "Bengalore">Bangalore</option>
+        </select>
+        <br>
+        <br>
+        <textarea name = "textarea" id = "101" placeholder="please give you feedback here" ></textarea>
+        <br>
+        <input type ="Submit" value = "Submit">
+    </form>
+</body>
+</html>
